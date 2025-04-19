@@ -1,0 +1,10 @@
+// ===== COPY THESE GLOBAL VARIABLES TO THE TOP OF YOUR FILE =====
+// Add after all includes but BEFORE any function definitions
+// These global variables need to be defined at the global scope
+
+// GPS and display variables
+absolute_time_t gps_start_time;  // GPS start time for displaying time since first fix
+int fix_status = 2;              // GPS fix status (0=valid, 2=invalid)
+int satellites_visible = 0;      // Number of satellites currently visible
+
+// ===== END OF GLOBAL VARIABLES ===== 
